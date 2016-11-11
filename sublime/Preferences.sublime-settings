@@ -1,9 +1,16 @@
 {
 	"auto_complete": true,
 	"auto_complete_commit_on_tab": true,
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"copy_with_empty_selection": true,
+	"dictionary": "Packages/Language - English/en_US.dic",
 	"ensure_newline_at_eof_on_save": true,
-	"font_size": 13,
+	// standard homebrew elixir path
+	"env":
+	{
+		"PATH": "/usr/local/Cellar/elixir/"
+	},
+	"font_size": 12,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -11,11 +18,11 @@
 	"index_files": true,
 	"rulers":
 	[
-		80
+		120
 	],
-	"tab_size": 2,
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
 	"spell_check": true,
-	"dictionary": "Packages/Language - English/en_US.dic"
+	"tab_size": 2,
+	"theme": "Material-Theme.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }
