@@ -1,3 +1,4 @@
+
 {
 	"auto_complete": true,
 	"auto_complete_commit_on_tab": true,
@@ -5,9 +6,10 @@
 	"copy_with_empty_selection": true,
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"ensure_newline_at_eof_on_save": true,
-	// standard homebrew elixir path
+	"spell_check": true,
 	"env":
 	{
+		// standard homebrew elixir path
 		"PATH": "/usr/local/Cellar/elixir/"
 	},
 	"font_size": 12,
