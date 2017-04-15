@@ -1,0 +1,14 @@
+"*":
+  core:
+    telemetryConsent: "limited"
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+  editor:
+    fontSize: 14
+  linter: {}
+  "linter-rubocop":
+    executablePath: "path_here"
+  welcome:
+    showOnStartup: false
