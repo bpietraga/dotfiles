@@ -1,13 +1,8 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "ruby.locate": {
-        "exclude": "{**/@(test|spec|tmp|.*),**/@(test|spec|tmp|.*)/**,**/*_spec.rb}",
-        "include": "**/*.rb"
-    },
-    "ruby.lint": {
-        "rubocop": true
-    },
-    "ruby.rubocop.onSave": true,
+    // Disable phone home
+    "telemetry.enableTelemetry": false,
+    // Basic editor config
     "editor.fontFamily": "Fira Code",
     "editor.fontSize": 12,
     "editor.fontLigatures": true,
@@ -16,6 +11,9 @@
     "editor.tabCompletion": true,
     "editor.folding": true,
     "editor.tabSize": 2,
+    "editor.cursorBlinking": "smooth",
+    "editor.codeLens": true,
+    "files.insertFinalNewline": true,
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -23,6 +21,18 @@
         "**/CVS": true,
         "**/.DS_Store": true
     },
+    // Ruby config
+    "ruby.locate": {
+        "exclude": "{**/@(test|spec|tmp|.*),**/@(test|spec|tmp|.*)/**,**/*_spec.rb}",
+        "include": "**/*.rb"
+    },
+    "ruby.lint": {
+        "rubocop": true
+    },
+    "ruby.rubocop.onSave": true,
+    // Elixir Config
+    "elixirLinter.useStrict": true,
+    // F# config
     "FSharp.monoPath": "/Library/Frameworks/Mono.framework/Versions/Current/Commands/mono",
     "cSpell.enabledLanguageIds": [
         "c",
@@ -40,5 +50,35 @@
         "typescript",
         "typescriptreact",
         "yml"
-    ]
+    ],
+    "FSharp.keywordsAutocomplete": true,
+    "FSharp.linter": true,
+    "Expecto.runDebug": false,
+    // Erlang config
+    "erlang.enableExperimentalAutoComplete": true,
+    // Elm config
+    "elm.makeCommand": "elm-make",
+    "elm.formatOnSave": true,
+    "elm.userProjectIntellisense": true,
+    "elm.includeParamsInUserAutocomplete": true,
+    "elm.userProjectMaxCommentSize": 10,
+    "elm.reactorHost": "127.0.0.1",
+    "elm.reactorPort": 8000,
+    "elm.formatCommand": "elm-format",
+    // Golang config
+    "go.buildOnSave": true,
+    "go.buildFlags": [],
+    "go.lintOnSave": true,
+    "go.lintTool": "golint",
+    "go.vetOnSave": true,
+    "go.formatOnSave": true,
+    "go.formatTool": "gofmt",
+    "go.useDiffForFormatting": true,
+    "go.coverOnSave": true,
+    "go.coverageOptions": "showBothCoveredAndUncoveredCode",
+    "go.gocodeAutoBuild": true,
+    // Emmet config
+    "emmet.triggerExpansionOnTab": true,
+    // Docker config
+    "docker.enableLinting": true
 }
