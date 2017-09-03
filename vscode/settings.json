@@ -7,6 +7,7 @@
     "editor.fontSize": 12,
     "editor.fontLigatures": true,
     "editor.trimAutoWhitespace": true,
+    "files.trimTrailingWhitespace": true,
     "editor.renderWhitespace": "boundary",
     "editor.tabCompletion": true,
     "editor.folding": true,
@@ -21,6 +22,8 @@
         "**/CVS": true,
         "**/.DS_Store": true
     },
+    "window.zoomLevel": 0,
+    "workbench.startupEditor": "newUntitledFile",
     // Ruby config
     "ruby.locate": {
         "exclude": "{**/@(test|spec|tmp|.*),**/@(test|spec|tmp|.*)/**,**/*_spec.rb}",
@@ -79,6 +82,10 @@
     "go.gocodeAutoBuild": true,
     // Emmet config
     "emmet.triggerExpansionOnTab": true,
+    "emmet.showAbbreviationSuggestions": true,
+    "emmet.showExpandedAbbreviation": "always",
     // Docker config
-    "docker.enableLinting": true
+    "docker.enableLinting": true,
+    // JSHint
+    "jshint.enable": true
 }
